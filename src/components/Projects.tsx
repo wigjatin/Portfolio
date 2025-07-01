@@ -46,15 +46,15 @@ const projects = [
   },
   {
     id: 2,
-    title: "Object Detection API",
-    description: "Real-time object detection system that identifies and tracks objects in video streams.",
-    image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b",
-    category: "Advanced",
-    technologies: ["TensorFlow", "YOLO", "OpenCV"],
-    githubUrl: "#",
-    demoUrl: "#",
-    comment: "My GPU still hasn't forgiven me for this one.",
-    details: "This API integrates YOLO (You Only Look Once) architecture with TensorFlow to provide real-time object detection in video streams. The system can identify and track multiple objects simultaneously with high precision. It's optimized for edge devices and can run efficiently on limited hardware resources."
+    title: "Brain Tumor Detector",
+    description: "Deep learning system that classifies brain MRI scans into tumor types or no tumor using transfer learning.",
+    image: "/lovable-uploads/img_project.png",
+    category: "Hard",
+    technologies: ["TensorFlow", "Streamlit", "VGG16"],
+    githubUrl: "https://github.com/wigjatin/Brain-Tumor-Detection",
+    demoUrl: "https://braintumordetectionjatinwig.streamlit.app/",
+    comment: "Nothing felt more powerful than teaching a model to spot tumors with 98% accuracy.",
+    details: "This project uses VGG16-based transfer learning to classify brain MRI scans into glioma, meningioma, pituitary tumors, or no tumor. The model was trained on a dataset of over 2800 images, augmented for robustness, and fine-tuned using custom classification layers. It achieved 98% accuracy on test data with balanced precision and recall. A Streamlit web app provides an intuitive interface for real-time prediction. Designed to support medical professionals by offering fast, reliable tumor detection in MRI images."
   },
   {
     id: 3,
