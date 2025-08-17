@@ -56,20 +56,20 @@ const projects = [
     comment: "Nothing felt more powerful than teaching a model to spot tumors with 98% accuracy.",
     details: "This project uses VGG16-based transfer learning to classify brain MRI scans into glioma, meningioma, pituitary tumors, or no tumor. The model was trained on a dataset of over 2800 images, augmented for robustness, and fine-tuned using custom classification layers. It achieved 98% accuracy on test data with balanced precision and recall. A Streamlit web app provides an intuitive interface for real-time prediction. Designed to support medical professionals by offering fast, reliable tumor detection in MRI images."
   },
-  {
+  /*{
     id: 3,
-    title: "AI Chatbot Assistant",
-    description: "Conversational AI that answers customer questions and routes complex inquiries to human agents.",
+    title: "Coming soon",
+    description: "",
     image: "https://images.unsplash.com/photo-1500375592092-80022131f5a1",
-    category: "Medium",
-    technologies: ["LangChain", "GPT", "Flask"],
+    category: "",
+    technologies: ["", "", ""],
     githubUrl: "#",
     demoUrl: "#",
-    comment: "It started making jokes I didn't program...",
-    details: "This chatbot assistant uses LangChain and GPT to provide natural conversational interactions with users. It can answer common questions, help with product selection, and route complex inquiries to human agents. The system learns from interactions to improve its responses over time and maintains context throughout conversations."
-  },
+    comment: "",
+    details: ""
+  },*/
 
-  {
+  /*{
     id: 4,
     title: "Weather Prediction App",
     description: "ML-powered weather forecasting application with 85% accuracy for 5-day predictions.",
@@ -80,7 +80,7 @@ const projects = [
     demoUrl: "#",
     comment: "Weather is chaotic, but this model somehow makes sense of it!",
     details: "This application uses multiple machine learning models to predict weather patterns based on historical data and current atmospheric conditions. It visualizes predictions through interactive charts and maps, allowing users to see temperature, precipitation, wind, and other weather parameters for the next five days."
-  },
+  },*/
   {
     id: 5,
     title: "Spam Detection System",
@@ -93,7 +93,7 @@ const projects = [
     comment: "Never thought I'd get excited over a message being labeled 'spam' — here we are.",
     details: "This spam detection system uses Natural Language Processing (NLP) and machine learning to accurately classify messages as spam or not spam. It leverages TF-IDF vectorization and the Multinomial Naive Bayes algorithm, focusing on high precision to avoid false positives. The model is trained on real-world datasets and includes a prediction script for real-time message filtering."
   },
-  {
+  /*{
     id: 6,
     title: "Stock Price Predictor",
     description: "AI-powered stock price prediction tool using LSTM neural networks and sentiment analysis.",
@@ -116,20 +116,20 @@ const projects = [
     demoUrl: "#",
     comment: "Now my smart speaker actually understands 'next free Tuesday'!",
     details: "This plugin enhances voice assistants with natural language understanding for complex calendar operations. It can interpret contextual commands like 'schedule a meeting after my last appointment on Thursday' or 'find a 30-minute slot when both Alex and I are free next week'. The system integrates with popular calendar services and learns from user interactions."
-  },
+  },*/
   {
     id: 8,
     title: "House Price Predictor",
     description: "Machine learning model that estimates real estate prices based on key property features.",
     image: "/lovable-uploads/house_predictor.png",
-    category: "Easy",
+    category: "Medium",
     technologies: ["Python", "Scikit-learn", "Gradient Boosting", "Pandas"],
     githubUrl: "https://github.com/wigjatin/House-prediction-model/tree/main",
     demoUrl: "https://house-prediction-model-jatin-wig.streamlit.app/",
     comment: "Taught a model to value homes — it doesn’t even have one.",
     details: "This project applies Gradient Boosting Regression to predict property values using historical sales data and structural attributes like square footage, quality rating, and year built. The pipeline includes robust preprocessing with outlier filtering, feature scaling, and log-transformed targets for improved accuracy. It models complex, non-linear feature interactions and outputs highly reliable estimates, making it useful for buyers, sellers, and agents alike."
   },
-  {
+  /*{
     id: 9,
     title: "Fraud Detection System",
     description: "Real-time fraud detection system for financial transactions using ensemble learning.",
@@ -176,7 +176,7 @@ const projects = [
     demoUrl: "#",
     comment: "Cut my electricity bill in half while still keeping the house comfortable!",
     details: "This system connects to smart home devices to monitor and optimize energy usage throughout the day. Using predictive analytics and reinforcement learning, it learns occupants' preferences and schedules to minimize energy consumption without sacrificing comfort. The system accounts for weather forecasts, electricity pricing, and user feedback to continuously improve its optimization algorithms."
-  },
+  },*/
   {
     id: 13,
     title: "Placement Prediction System",
@@ -189,7 +189,7 @@ const projects = [
     comment: "Interview anxiety meets predictive analytics.",
     details: "This application uses a Logistic Regression model trained on historical student data to predict whether a student is likely to be placed. It takes inputs such as academic performance, work experience, and degree specialization to estimate placement probability. The app offers a clean and interactive Streamlit interface, making it useful for students, counselors, and career services to assess employability based on quantitative factors. The model was built with scikit-learn and deployed using joblib for efficient performance."
   },
-  {
+  /*{
     id: 14,
     title: "Autonomous Drone Navigation",
     description: "Computer vision system enabling drones to navigate complex environments without GPS.",
@@ -344,7 +344,7 @@ const projects = [
     demoUrl: "#",
     comment: "It designed a neural network that outperformed my hand-crafted model after just 24 hours of search!",
     details: "This automated system uses reinforcement learning and evolutionary algorithms to discover optimal neural network architectures for specific tasks. It explores the space of possible architectures efficiently, testing promising candidates on the target problem. The system optimizes for both performance and computational efficiency, creating networks that achieve state-of-the-art results while minimizing parameters and inference time."
-  }
+  }*/
 ];
 
 const Projects = () => {

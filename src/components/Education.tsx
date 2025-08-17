@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap } from 'lucide-react';
@@ -15,7 +14,6 @@ const educationHistory = [
     institution: "Birla Institute of Technology And Science - Pilani",
     degree: "Bachelor of Science in Computer Science",
     description: "Focused on artificial intelligence, machine learning, and software engineering. Completed coursework in data structures, algorithms, database systems, and web development.",
-    achievements: ["Dean's List", "Outstanding Student Award", "Research Assistant"],
     coursework: ["Artificial Intelligence", "Machine Learning", "Data Structures", "Software Engineering", "Database Systems"]
   },
   {
@@ -23,7 +21,6 @@ const educationHistory = [
     institution: "Bharat National Public School",
     degree: "High School Diploma",
     description: "Science stream (Physics, Chemistry, Maths) with Computer Science. Active participant in coding competitions and science fairs.",
-    achievements: ["Valedictorian", "Science Fair Winner", "Programming Competition Finalist"],
     coursework: ["Physics", "Chemistry", "Mathematics", "Computer Science"]
   }
 ];
@@ -113,43 +110,22 @@ const Education = () => {
                     {education.description}
                   </p>
                   
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-gray-800 mb-3">Achievements</h4>
-                      <div className="flex gap-2 flex-wrap">
-                        {education.achievements.map((achievement) => (
-                          <motion.span 
-                            key={achievement} 
-                            className="px-3 py-1 bg-gradient-to-r from-green-100 to-green-50 text-green-700 text-sm rounded-full border border-green-200"
-                            whileHover={{ 
-                              scale: 1.05,
-                              backgroundColor: "#f0fdf4"
-                            }}
-                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                          >
-                            {achievement}
-                          </motion.span>
-                        ))}
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-gray-800 mb-3">Key Coursework</h4>
-                      <div className="flex gap-2 flex-wrap">
-                        {education.coursework.map((course) => (
-                          <motion.span 
-                            key={course} 
-                            className="px-3 py-1 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-700 text-sm rounded-full border border-blue-200"
-                            whileHover={{ 
-                              scale: 1.05,
-                              backgroundColor: "#eff6ff"
-                            }}
-                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                          >
-                            {course}
-                          </motion.span>
-                        ))}
-                      </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-3">Key Coursework</h4>
+                    <div className="flex gap-2 flex-wrap">
+                      {education.coursework.map((course) => (
+                        <motion.span 
+                          key={course} 
+                          className="px-3 py-1 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-700 text-sm rounded-full border border-blue-200"
+                          whileHover={{ 
+                            scale: 1.05,
+                            backgroundColor: "#eff6ff"
+                          }}
+                          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                        >
+                          {course}
+                        </motion.span>
+                      ))}
                     </div>
                   </div>
                 </CardContent>

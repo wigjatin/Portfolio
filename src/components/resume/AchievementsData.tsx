@@ -2,7 +2,7 @@
 import React from 'react';
 
 export const achievements = [
-  {
+  /*{
     title: "Kaggle Competition Top 3%",
     organization: "Kaggle",
     date: "July 2023", 
@@ -15,12 +15,12 @@ export const achievements = [
     date: "June 2023",
     description: "Published a paper on novel optimization techniques for transformer models with state-of-the-art results.",
     icon: "📝"
-  },
+  },*/
   {
-    title: "AI Hackathon Winner",
-    organization: "TechCrunch Disrupt",
-    date: "May 2023",
-    description: "Led a team that won first place by developing an AI-powered accessibility tool for visually impaired users.",
+    title: "Uploading soon ",
+    organization: "",
+    date: "",
+    description: "",
     icon: "🏅"
   }
 ];
